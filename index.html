@@ -1,99 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Samarth India Charitable Trust</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth India</title>
+    <style>
+.container{
+    width: 100%;
+    background-color: rgb(234, 242, 244);
+}
+.container.row{
+    width: 60%;
+    margin:auto;
+}
+.container .row .header{
+    width: 40%;
+    text-align:center;
+    margin: auto;
+    font-style: italic;
+}
+.container.row .header h1{
+    padding-top:30px ;
+    font-size: 45px;
+    color: #e1af5f;
+    font-style:italic;
+}
+.container.row .header p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 3.5;
+    color: #9e2c2c;
+    
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: #f4edd9;
+}
+.content .card img{
+    width: 100%;
+    height: auto;
+    
+}
+.content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-style:italic;
+    color: #9e2c2c;
+
+
+}
+.content .card p{
+    font-size: 15px;
+    color: #6470f1;
+    line-height: 1.5;
+    padding: 10px;
+    
+}
+@media screen and (max-width:768px){
+    .content{
+        flex-direction: column;
+    }
+}
+</style>
 </head>
 <body>
-  <nav class="header">
-    <img id="logo" src="pics/final-transparent samarth_.png" alt="Samarth India logo">
-    <a href="index.html">Home</a>
-    <div class="dropdown">
-        <a href="#" class="dropbtn">About Us</a>
-        <div class="dropdown-content">
-            <a href="OurMission.html">Our Mission</a>
-            <a href="#">Team</a>
-            <a href="#">Testimonials</a>
-        </div>
-    </div>
-    <div class="dropdown">
-    <a href="#"class="dropbtn">Support Us</a>
-    <div class="dropdown-content">
-        <a href="#">Donate Food</a>
-        <a href="#">Donate Money</a>
-        <a href="#">Volunteer</a>
-        <a href="#">Foster a Pet</a>
-      </div>
-    </div>
-    <div class="dropdown">
-        <a href="#" class="dropbtn">Services</a>
-        <div class="dropdown-content">
-            <a href="#">Pet Adoption</a>
-            <a href="#">Veterinary Care</a>
-            <a href="#">Training</a>
-        </div>
-    </div>
-    <a href="#">Donate</a>
-    <a href="#">Contact</a>
- 
-  
-  <div class="search-bar">
-    <input type="text" placeholder="Search...">
-    <button type="submit">Search</button>
-</div>
-  </nav>
-  <div class="main">
-    <div class="image-text-overlay">
-      <img src="pics/image4.jpg" alt="Cute Pet" class="pet-image">
-      <div class="overlay-text">
-          <h2>Support the Cause</h2>
-          <p>At Pet NGO, we believe in the power of compassion and the love that binds us to our furry friends. But we can't do it alone. We need your help to continue our mission. Here's how you can contribute:Donate food or funds to help pets in need.
-             Your contribution makes a difference!</p>
-            <input type="submit" value="Donate"/>
-      </div>
-    </div>
-    <h2>About Our NGO</h2>
-    <p><mark><strong>Samarath India Charitable Trust</strong>  </mark>is a compassionate shelter home dedicated to the welfare of stray animals. As a beacon of hope, our organization tirelessly works to provide aid, medical care, and rehabilitation for injured and distressed animals across the community. Our commitment extends beyond rescue, as we strive to educate the public on the importance of kindness and responsible pet ownership. Through our efforts, we aim to create a safer, more compassionate world where every stray animal finds love, respect, and a chance at a new life.</p>
-    <ul>
-       <li> <strong>Shelter and Care: </strong> offer a place of shelter and care for homeless animals. Stray, abandoned, or surrendered pets find refuge within our organization.</li>
-       <li><strong> Adoption:</strong> Pet NGO encourages pet adoption. By adopting a pet from us, you not only give them a loving home but also contribute to their well-being.</li>
-       <li><strong> Volunteering:</strong> Become a volunteer at Pet NGO! You can contribute by providing foster care for puppies until they find permanent homes.</li>
-       <li> <strong>Donations:</strong> All donations to Pet NGO are exempt from Income Tax under 80G. Your support helps us continue our vital work.</li>
-    </ul>
-  </div>
-  <div class="slider">
-    <span id="slide-1"></span>
-    <span id="slide-2"></span>
-    <span id="slide-3"></span>
-    <span id="slide-4"></span>
-    <span id="slide-5"></span>
-    <div class="image-container">
-      <img src="pics/IMG-20211024-WA0015.jpg" class="slide" width="500" height="300" />
-      <img src="pics/20200518_100826.jpg" class="slide" width="500" height="300" />
-      <img src="pics/IMG20221211154416.jpg" class="slide" width="500" height="300" />
-      <img src="pics/20201212_144128.jpg" class="slide" width="500" height="300" />
-      <img src="pics/IMG-20210718-WA0082.jpg" class="slide" width="500" height="300" />
-    </div>
-    <div class="buttons">
-      <a href="#slide-1"></a>
-      <a href="#slide-2"></a>
-      <a href="#slide-3"></a>
-      <a href="#slide-4"></a>
-      <a href="#slide-5"></a>
-      <a href="#slide-1" class="prev">❮</a>
-      <a href="#slide-5" class="next">❯</a>
-    </div>
-  </div>
-  
-  
-    
-  </div>
-</div>
+   <div class="container" >
+    <div class="row">
+        <div class="header">
+            <h1>SERVICES AND ACTIVITIES</h1>
+            <p>
+               <br >At Samarth NGO, organizing activities like adoption camps involves meticulous planning and coordination. We start by identifying suitable venues and dates, ensuring they align with our mission and reach. Engaging with local communities and authorities is crucial for support and permissions.
 
-  <footer class="footer">
-    <p>© 2024 Pet NGO. All rights reserved.</p>
-  </footer>
+
+
+            </p>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="main.jpg" >
+                <h4>
+                   Adoption Camp 
+                </h4>
+                <p>
+                    Samarth India NGO's adoption camp for pets is a heartwarming endeavor, providing a platform for homeless animals to find loving homes. The camp showcases a diverse array of furry friends, each with their unique personalities and stories. Volunteers offer valuable information on responsible pet ownership, encouraging prospective adopters to consider factors like commitment and care. Through interactive sessions and demonstrations, attendees learn about the joys and responsibilities of pet companionship. The camp fosters a sense of community, connecting passionate animal lovers with their future furry family members. It's a testament to Samarth India's dedication to creating brighter futures for both pets and people alike. 
+                </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <img src="img2.jpg" >
+                    <h4>
+                       Food Donation
+                    </h4>
+                    <p>
+                        Samarth India NGO extends its compassionate mission to pets through food donation initiatives. Recognizing the importance of nutrition in the well-being of animals, the organization collects and distributes nutritious meals to furry companions in need. Through partnerships with local businesses and generous donors, Samarth India ensures that no pet goes hungry. Their efforts reach shelters, rescue centers, and low-income pet owners, providing vital support to both animals and their caregivers. By alleviating the financial burden of pet food, the NGO promotes responsible pet ownership and strengthens the bond between humans and their beloved companions, embodying the spirit of empathy and generosity.
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="card">
+                        <img src="20201212_144128.jpg" >
+                        <h4>
+                           Volunteer
+                        </h4>
+                        <p>
+                            Samarth India NGO recognizes the invaluable role of volunteers in its mission to support pets in need. Through comprehensive training programs, the organization equips volunteers with the skills and knowledge necessary to provide quality care to animals. These training sessions cover various aspects, including animal behavior, basic medical care, and handling techniques. Volunteers learn how to create enriching environments for pets, promote socialization, and facilitate adoptions. With hands-on experience and guidance from experienced staff, volunteers become advocates for animal welfare within their communities. Samarth India fosters a culture of compassion and dedication, empowering volunteers to make a meaningful difference in the lives of pets and their human companions. 
+                        </p>
+                    </div> 
+        </div>
+    </div>
+   </div>
 </body>
 </html>
