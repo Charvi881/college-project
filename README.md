@@ -1,6 +1,3 @@
-WIT-college-project
-Certainly! Let's update the name to Pet NGO. Here's the revised description for your README.md file:
-
 Pet NGO (Pet Animal Welfare Society)
 About Pet NGO
 Pet NGO, is a compassionate organization dedicated to the welfare of animals, particularly pets. Our mission is to provide a safe haven for abandoned, lost, or surrendered animals and ensure their well-being. Here's what we do:
